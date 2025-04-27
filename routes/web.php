@@ -7,9 +7,8 @@ Route::get('/', function () {
 });
 
 Route::get('/home' , function(){
-    $myname ="Omar";
-    $mylastname ="Elgadi";
-    return view('home',compact('myname','mylastname'));
+   
+    return view('home');
 });
 Route::get('/loop',function(){
     $cartypes = ['marcedes','BMW','Audi'];
